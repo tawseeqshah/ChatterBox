@@ -39,5 +39,5 @@ Contributions to ChatterBox are welcome! If you have any ideas, suggestions, or 
 
 ## Contact
 
-For any inquiries or feedback, please reach out to us at support@chatterbox.com. We'd love to hear from you!
+For any inquiries or feedback, please reach out to us at tawseeq_33btech20@nitsri.ac.in. We'd love to hear from you!
 
