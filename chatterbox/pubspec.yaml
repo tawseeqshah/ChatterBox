@@ -33,6 +33,7 @@ dependencies:
     sdk: flutter
   google_fonts: ^4.0.4
   jiffy: ^6.2.1
+  provider: ^6.0.5
   timeago: ^3.4.0
 
 dev_dependencies:

@@ -3,6 +3,7 @@ import 'package:chatterbox/pages/contacts_page.dart';
 import 'package:chatterbox/pages/messages_page.dart';
 import 'package:chatterbox/pages/notifications_page.dart';
 import 'package:chatterbox/widgets/avatar.dart';
+import 'package:chatterbox/widgets/glowing_action_button.dart';
 import 'package:chatterbox/widgets/icon_buttons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
@@ -133,6 +134,14 @@ class _BottomNavigationBarState extends State<_BottomNavigationBar> {
                 onTap: handleItemSelected,
                 isSelected: (selectedIndex == 1),
               ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal:8.0),
+                child: GlowingActionButton(
+                  color: AppColors.secondary,
+                  icon: CupertinoIcons.add,
+                  onPressed: () {},
+                ),
+              ),
               NavigationBarItem(
                 index: 2,
                 label: "Calls",
@@ -179,7 +188,7 @@ class NavigationBarItem extends StatelessWidget {
         onTap(index);
       },
       child: SizedBox(
-        height: 70.0,
+        width: 70.0,
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
